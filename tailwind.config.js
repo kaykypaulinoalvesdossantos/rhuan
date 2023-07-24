@@ -8,9 +8,25 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-linear-insta':
+          'linear-gradient(90deg, #E1306C 0%, #405DE6 100%);',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      boxShadow: {
+        nabBarShadow: '0px 10px 20px rgba(0, 0, 0, 0.25)',
+        navBarShadow: '0px 0px 30000px 20000px rgba(0, 0, 0, 0.30)',
+        lightShadow: '-13px 15px 22px 10px rgba(170, 101, 42, 0.15)',
+        modalShadow: '0px 4px 20px -5px rgba(0, 0, 0, 0.25);',
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        montserratAlternates: ['Montserrat Alternates', 'sans-serif'],
+        Ingrid: ['Ingrid Darling', 'sans-serif'],
+      },
+      screens: {
+        cell: '400px',
+        cellSliderDepositions: '500px',
       },
     },
   },
