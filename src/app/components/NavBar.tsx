@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import Logo from '../../../public/imgs/logo.png'
+import Logo from '@/../public/imgs/Logo.png'
 
 export default function NavBar() {
   const [open, setOpen] = useState(false)
