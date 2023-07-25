@@ -9,7 +9,7 @@ export default function Presentation() {
         data-aos-duration="1500"
         className="text-start max-md:text-center"
       >
-        <h1 className="font-montserrat text-8xl font-bold text-[#0D0A09] max-lg:text-7xl max-sm:text-8xl max-[350px]:text-7xl">
+        <h1 className="font-montserrat text-8xl font-bold text-[#0D0A09] max-lg:text-7xl max-sm:text-8xl max-[370px]:text-7xl">
           RHUAN
         </h1>
         <p className="font-montserratAlternates text-4xl font-normal">

@@ -7,7 +7,7 @@ import insta from '@/../public/imgs/Icons/insta-contact.png'
 import foto from '@/../public/imgs/fotos/2.png'
 export default function Contact() {
   return (
-    <div className="mt-36 flex items-center justify-center gap-24">
+    <div className="mt-36 flex items-center justify-center gap-24 max-lg:gap-12">
       <div className="flex flex-col items-center justify-center">
         <h2 className="mb-7 font-montserratAlternates text-5xl text-[#0D0A09] max-md:text-4xl">
           Contato
@@ -57,7 +57,7 @@ export default function Contact() {
         </Link>
       </div>
       <Image
-        className="h-[46rem] w-[31rem] max-lg:h-[42rem] max-lg:w-[28rem] max-md:hidden"
+        className="h-[46rem] w-[31rem] max-lg:h-[30rem] max-lg:w-[20rem] max-[768px]:hidden"
         src={foto}
         alt={''}
       />
