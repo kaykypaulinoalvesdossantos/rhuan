@@ -4,8 +4,8 @@ import primaryImgBlack from '@/../public/imgs/fundo.png'
 import Link from 'next/link'
 export default function About() {
   return (
-    <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7] ">
-      <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center max-cell:mt-10">
+    <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7] max-cell:h-full max-cell:space-y-0">
+      <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center max-cell:mb-3 max-cell:mt-10">
         <h2
           className="font-montserratAlternates text-5xl text-[#0D0A09]"
           data-aos="fade-down"
@@ -45,7 +45,7 @@ export default function About() {
             data-aos-duration="2500"
           />
         </div>
-        <div className="space-y-12">
+        <div className="space-y-12 max-cell:mb-5">
           <p
             className="w-[40rem] text-center text-2xl text-[#0D0A09] max-xl:w-[35rem] max-lg:w-[28rem] max-md:w-[18rem] max-md:text-base"
             data-aos="fade-up"
