@@ -20,7 +20,7 @@ export default function Footer() {
           <Image src={Facebook} alt={''} className="w-12 max-md:w-8" />
         </Link>
       </div>
-      <h2 className="font_montserrat font-bold text-white">
+      <h2 className="font_montserrat font-bold text-white max-sm:text-xs">
         @ 2023 Todos os Direitos Reservados
       </h2>
     </footer>

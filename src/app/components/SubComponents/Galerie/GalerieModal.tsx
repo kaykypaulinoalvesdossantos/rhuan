@@ -26,7 +26,7 @@ export default function GalerieModal() {
               data-aos-duration="1500"
             >
               <Image src={configGalerie.principalphoto} alt={''} />
-              <p className=" w-[350px] text-center text-2xl font-bold text-[#0D0A09]">
+              <p className=" w-full px-4 text-center text-2xl font-bold text-[#0D0A09]">
                 {configGalerie.name}
               </p>
               <button

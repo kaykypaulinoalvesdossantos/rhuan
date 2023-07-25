@@ -17,7 +17,7 @@ export default function Form() {
             {'Nome :'}
             <input
               type="text"
-              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem]"
+              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem] max-[350px]:h-10 max-[350px]:w-[17rem]"
             />
           </label>
           <label
@@ -27,7 +27,7 @@ export default function Form() {
             {'E-mail :'}
             <input
               type="text"
-              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem]"
+              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem] max-[350px]:h-10 max-[350px]:w-[17rem]"
             />
           </label>
           <label
@@ -37,7 +37,7 @@ export default function Form() {
             {'Telefone :'}
             <input
               type="text"
-              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem]"
+              className="h-14 w-[43rem] rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem] max-[350px]:h-10 max-[350px]:w-[17rem]"
             />
           </label>
           <label
@@ -49,7 +49,7 @@ export default function Form() {
               maxLength={500}
               rows={7}
               cols={50}
-              className="max-h-[18rem] max-w-2xl resize-none rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem]"
+              className="max-h-[18rem] max-w-2xl resize-none rounded-2xl border-2 border-[#1c1107] bg-[#EADBCE] px-3 text-base max-md:w-[30rem] max-cell:w-[20rem] max-[350px]:w-[17rem]"
             />
           </label>
         </div>

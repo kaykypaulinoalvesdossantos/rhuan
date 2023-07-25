@@ -4,7 +4,7 @@ import primaryImgBlack from '@/../public/imgs/fundo.png'
 import Link from 'next/link'
 export default function About() {
   return (
-    <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7]">
+    <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7] ">
       <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center">
         <h2
           className="font-montserratAlternates text-5xl text-[#0D0A09]"
@@ -61,7 +61,7 @@ export default function About() {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <div className="flex items-center justify-around">
+          <div className="flex items-center justify-around max-cell:mb-9">
             <Link
               className="rounded-xl bg-[#DAA520] px-[3rem] py-[1rem] font-montserrat text-2xl font-bold text-[#FBF4EE] max-md:px-[2rem] max-md:text-xl max-sm:text-sm"
               data-aos="fade-left"

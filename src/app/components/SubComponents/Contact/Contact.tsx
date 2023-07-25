@@ -16,21 +16,21 @@ export default function Contact() {
         <p className="mb-12 font-montserratAlternates text-3xl text-[#0D0A09] ">
           Fotos & Filmes
         </p>
-        <span className="mb-12 h-[2px] w-[600px] bg-[#1C1107] max-md:w-[31rem] max-sm:w-[25rem]"></span>
+        <span className="mb-12 h-[2px] w-[600px] bg-[#1C1107] max-md:w-[31rem] max-sm:w-[25rem] max-cell:w-full"></span>
         <Link
           href={''}
-          className="mb-4 flex items-center space-x-2 rounded-xl bg-[#0D9F16] px-4 py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl"
+          className="mb-4 flex items-center space-x-2 rounded-xl bg-[#0D9F16] px-4 py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl max-[350px]:text-lg"
         >
           <Image
             src={whats}
             alt={''}
-            className="max-md:h-[3rem] max-md:w-[3rem] max-cell:h-8 max-cell:w-8"
+            className="max-md:h-[3rem] max-md:w-[3rem] max-cell:h-8 max-cell:w-8 "
           />
           (11) 9 1234-5678
         </Link>
         <Link
           href={''}
-          className="mb-4 flex items-center space-x-2 rounded-xl  bg-[#E57069] px-4  py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl"
+          className="mb-4 flex items-center space-x-2 rounded-xl  bg-[#E57069] px-4  py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl  max-[350px]:text-lg"
         >
           <Image
             src={email}
@@ -41,7 +41,7 @@ export default function Contact() {
         </Link>
         <Link
           href={''}
-          className="mb-4 flex items-center space-x-2  rounded-xl bg-gradient-linear-insta px-4 py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl"
+          className="mb-4 flex items-center space-x-2  rounded-xl bg-gradient-linear-insta px-4 py-2 font-montserratAlternates text-4xl text-[#FBF8F5] max-md:text-3xl max-cell:text-2xl  max-[350px]:text-lg"
         >
           <Image
             src={face}
