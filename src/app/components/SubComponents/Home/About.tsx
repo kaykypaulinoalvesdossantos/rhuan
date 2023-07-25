@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function About() {
   return (
     <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7] ">
-      <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center">
+      <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center max-cell:mt-10">
         <h2
           className="font-montserratAlternates text-5xl text-[#0D0A09]"
           data-aos="fade-down"
@@ -21,7 +21,7 @@ export default function About() {
           RHUAN
         </h1>
       </div>
-      <div className="flex items-center justify-around">
+      <div className="flex items-center justify-around max-cell:mb-10">
         <div className="relative z-10 max-md:hidden ">
           <Image
             src={primaryImg}

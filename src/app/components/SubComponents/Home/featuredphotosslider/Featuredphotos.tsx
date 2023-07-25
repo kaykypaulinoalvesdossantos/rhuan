@@ -26,7 +26,7 @@ export default function Featuredphotos() {
       <Swiper
         data-aos="fade-down"
         data-aos-duration="1500"
-        slidesPerView={2}
+        slidesPerView={1}
         loop={true}
         spaceBetween={10}
         centeredSlides={true}
@@ -43,14 +43,14 @@ export default function Featuredphotos() {
             slidesPerView: 3,
           },
         }}
-        className="mySwiper h-full"
+        className="mySwiper !max-cell:w-full h-full"
       >
         {featuredphotos.map((IMG: any) => (
           <SwiperSlide key={IMG.dir} className=" ">
             <Image
               src={IMG.img}
               alt=""
-              className="!h-[37rem] !w-[25rem] max-lg:!h-[25rem] max-lg:!w-[16rem]  max-md:!h-[21rem] max-md:!w-[14rem]  max-sm:!h-[18rem] max-sm:!w-[12rem] max-cellSliderDepositions:!h-[12rem] max-cellSliderDepositions:!w-[8rem]"
+              className="!h-[37rem] !w-[25rem] max-lg:!h-[25rem] max-lg:!w-[16rem]  max-md:!h-[21rem] max-md:!w-[14rem]  max-sm:!h-[18rem] max-sm:!w-[12rem] max-cellSliderDepositions:!h-full max-cellSliderDepositions:!w-full"
             />
           </SwiperSlide>
         ))}
