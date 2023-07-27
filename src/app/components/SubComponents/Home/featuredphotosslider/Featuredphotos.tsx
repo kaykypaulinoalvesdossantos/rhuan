@@ -7,11 +7,11 @@ import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
 
-import './styles.css'
 import { featuredphotos } from '@/mock/featuredphotos'
+import './styles.css'
 
 // import required modules
-import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules'
+import { Autoplay, Pagination } from 'swiper/modules'
 
 export default function Featuredphotos() {
   return (
@@ -31,10 +31,10 @@ export default function Featuredphotos() {
         spaceBetween={10}
         centeredSlides={true}
         autoplay={{
-          delay: 3000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         breakpoints={{
           640: {
             slidesPerView: 2,
