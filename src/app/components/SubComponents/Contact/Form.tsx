@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <div className="flex items-center justify-center gap-24">
       <Image
-        className="max-[768px]:hidden h-[46rem] w-[31rem] max-lg:h-[42rem] max-lg:w-[28rem]"
+        className="h-[46rem] w-[31rem] max-lg:h-[42rem] max-lg:w-[28rem] max-[768px]:hidden"
         src={foto}
         alt={''}
       />
