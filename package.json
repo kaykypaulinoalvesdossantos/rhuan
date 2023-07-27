@@ -29,5 +29,9 @@
     "@types/aos": "^3.0.4",
     "eslint": "^8.45.0",
     "prettier-plugin-tailwindcss": "^0.4.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }

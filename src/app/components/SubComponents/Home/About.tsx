@@ -1,10 +1,10 @@
-import Image from 'next/image'
 import primaryImg from '@/../public/imgs/DSC_3834.png'
 import primaryImgBlack from '@/../public/imgs/fundo.png'
+import Image from 'next/image'
 import Link from 'next/link'
 export default function About() {
   return (
-    <div className="relative flex h-screen flex-col justify-center space-y-14 bg-[#D9BEA7] max-cell:h-full max-cell:space-y-0">
+    <div className="relative flex flex-col justify-center space-y-14 bg-[#D9BEA7] py-11 max-cell:space-y-0">
       <div className="ml-[12rem] max-lg:ml-[9rem] max-md:ml-[0rem] max-md:text-center max-cell:mb-3 max-cell:mt-10">
         <h2
           className="font-montserratAlternates text-5xl text-[#0D0A09]"

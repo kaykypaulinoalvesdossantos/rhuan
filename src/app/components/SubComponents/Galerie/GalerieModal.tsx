@@ -1,9 +1,8 @@
 'use client'
+import { galerieconfig } from '@/mock/galerieconfig'
+import Image from 'next/image'
 import { SetStateAction, useState } from 'react'
 import Modal from './Modal/Modal'
-import { galerieconfig } from '@/mock/galerieconfig'
-import SliderGalerie from './SliderGalerie/SliderGalerie'
-import Image from 'next/image'
 
 export default function GalerieModal() {
   const [isOpenModal, setIsOpenModal] = useState(false)
@@ -21,7 +20,7 @@ export default function GalerieModal() {
           return (
             <div
               key={configGalerie.id}
-              className="flex flex-col items-center gap-8  shadow-modalShadow xl:w-1/5"
+              className="flex w-1/5 flex-col items-center gap-8 shadow-modalShadow max-lg:w-2/5 max-md:w-2/4 max-sm:mx-5 max-sm:w-full"
               data-aos="fade-up"
               data-aos-duration="1500"
             >
@@ -40,7 +39,7 @@ export default function GalerieModal() {
         })}
       </div>
       {isOpenModal && (
-        <div className="fixed inset-0 z-10 z-50 flex items-center justify-center">
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
           <Modal
             card={selectedCard}
             isOpen={isOpenModal}
